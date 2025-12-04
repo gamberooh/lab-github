@@ -7,7 +7,7 @@ jobs:
   basic-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Hello world
+      - name: Clone the repo
         uses: actions/checkout@v4
       - name: Install g++
         run: sudo apt install gcc
